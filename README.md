@@ -34,7 +34,12 @@ sudo pip install h5py
 For Ubuntu 16.04 you will need  python-h5py:
 
 ```bash
-sudo apt-get install python-h5py
+sudo apt-get install python-h5py python-tk
+```
+If there is a problem with matplotlib try:
+
+```bash
+sudo python -mpip install -U matplotlib
 ```
 
 ### Usage
