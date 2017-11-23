@@ -31,6 +31,11 @@ To install h5py for Python:
 sudo apt-get install libhdf5-dev
 sudo pip install h5py
 ```
+For Ubuntu 16.04 you will need  python-h5py:
+
+```bash
+sudo apt-get install  python-h5py
+```
 
 ### Usage
 To train a model to classify point clouds sampled from 3D shapes:
